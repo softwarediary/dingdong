@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">叮咚</string>
+    <string name="title_home">Today</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="top_today">今日</string>
+    <string name="top_all">习惯奖励</string>
+    <string name="top_mine">我的</string>
+    <string name="add_habit">添加习惯</string>
+
+
+        <string name="GO">go</string>
+        <string name="bj">北京</string>
+        <string name="sh">上海</string>
+        <string name="gz">广州</string>
+        <string name="heb">哈尔滨</string>
+        <string name="cc">长春</string>
+        <string name="sy">沈阳</string>
+
+</resources>
