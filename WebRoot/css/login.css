@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+html {
+    height: 100%;
+}
+
+body{
+ 	font-family:"Microsoft Yahei","Helvetica Neue",Arial,sans-serif;
+ 	font-size:16px;
+ 	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 	background: -webkit-linear-gradient(#FFA07A, white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#FFA07A, white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#FFA07A, white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#FFA07A, white); /* 标准的语法（必须放在最后） */
+ }
+  a{
+ 	color: #777;
+ 	text-decoration:none;
+ }
+ a:focus,
+ a:hover {
+ 	color: #777;
+ }
+ p{
+ 	color:#FFA07A;
+ 	border:2px solid #FFEFD5;
+ }
+ header{
+ 	background:#FFA07A;
+ 	height:100px;
+ }
+ header .account{
+ 	padding-right:50px;
+ 	text-align:right;
+ 	line-height: 40px;
+ 	color:white;
+ 	height:40px;
+ 	background:#FFA07A;
+
+ }
+ header .account>a{
+ 	float:right;
+ 	padding-right:25px;
+ 	line-height: 40px;
+ 	color:white;
+
+ }
+ header .logo{
+ 	height:80px;
+ 	margin-left:80px;
+ 	background: url(../images/logo.png) left center no-repeat;
+ }
+
+ main{
+ 	margin-top:0px;
+ }
+ main .search{
+
+ 	float:right;
+ 	margin-top:-50px;
+ 	margin-right:200px;
+ 	border:2px solid #FFA07A;
+ 	border-radius:5px;
+ 	font-size:14px;
+ 	height:24px;
+ 	width:200px;
+
+
+ }
+ main .search-go{
+ 	float:right;
+ 	margin-top:-53px;
+ 	margin-right:100px;
+ 	padding:4px 15px;
+ 	font-family:"Microsoft Yahei","Helvetica Neue",Arial,sans-serif;
+ 	border:1px solid white;
+ 	border-radius:3px;
+ 	font-size:14px;
+ 	color:white;
+ 	background:#FFA07A;
+
+ }
+
+ main .search-go:hover{
+
+ 	background:#FF6347;
+
+ }
+
+ main h3{
+ 	text-align:center;
+ }
+ main table{
+
+ 	margin-top:20px;
+ 	margin-left:auto;
+ 	margin-right:auto;
+
+ 	width:700px;
+
+ }
+ main table th{
+
+ 	height:50px;
+
+ }
+ main table td{
+
+ 	text-align:center;
+ 	height:40px;
+ }
+
+ input{
+      border: 2px solid #FFA07A; 
+     padding: 7px 0px;
+      border-radius: 3px; /*css3ÊôÐÔIE²»Ö§³Ö*/
+      padding-left:5px; 
+      margin-top:20px;
+      width:300px;
+   }
+   main .login-go{
+ 	margin-top:20px;
+ 	padding:4px 15px;
+ 	font-family:"Microsoft Yahei","Helvetica Neue",Arial,sans-serif;
+ 	border:1px solid white;
+ 	border-radius:3px;
+ 	font-size:14px;
+ 	color:white;
+ 	background:#FFA07A;
+ 	width:200px;
+
+ }
+ main .login-go:hover{
+
+ 	background:#FF6347;
+
+ }
