@@ -14,7 +14,7 @@
          <!-- 配置一个拦截器 -->
 	     <interceptors>
 	        <!-- 拦截器对应的class是 com.food.util.LoginInterceptors-->   
-	        <interceptor name="LoginInterceptors" class="com.dd.util.LoginInterceptors">
+	        <interceptor name="LoginInterceptors" class="com.dd.until.LoginInterceptors">
 	           <!-- excludeName 是例外的action，也就是下面这几个action不会被拦截--> 
 	           <param name="excludeName">user_reg,user_login</param>
 	           <!-- customer可以作为参数传递，取自session.put("customer", db_customer);中的这个customer-->
